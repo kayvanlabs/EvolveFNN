@@ -5,6 +5,7 @@ import os
 import argparse
 import pickle
 import os,sys
+sys.path.append('../Models')
 import numpy as np
 import pandas as pd
 import pickle

@@ -2,6 +2,7 @@ import argparse
 
 import pickle
 import os,sys
+sys.path.append('../Models')
 import numpy as np
 import xgboost, os
 import pandas as pd
@@ -14,7 +15,6 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.linear_model import LogisticRegression 
 from sklearn.naive_bayes import GaussianNB
 from sklearn.neighbors import KNeighborsClassifier
-from GFN import GeneralizedFuzzyClassifier
 from sklearn import tree
 from interpret.glassbox import ExplainableBoostingClassifier
 from simulation_data_gen import *
