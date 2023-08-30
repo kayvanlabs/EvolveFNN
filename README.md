@@ -6,7 +6,7 @@
 ![network](https://github.com/yufengzhang1995/EvolveFNN/blob/main/network.png)
 
 **Required Packages**
-- torhc==1.12.1
+- torch==1.12.1
 - numpy==1.21.6
 - pandas==1.4.1
 - scikit-learn==1.2.2
@@ -20,9 +20,9 @@
 2. Models
    * Layers
    * Network
-   * Classifier implement with early stopping
+   * Classifier implementation with early stopping
 4. MIMIC
-   * refer to https://github.com/YerevaNN/mimic3-benchmarks/ for in-hospital data generation
+   * Refer to https://github.com/YerevaNN/mimic3-benchmarks/ for in-hospital data generation
 5. UM
    * UM data is not available
    
