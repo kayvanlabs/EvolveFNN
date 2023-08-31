@@ -24,28 +24,28 @@ This repository contains code related to the paper, "EvolveFNN: An interpretable
       random_state = 42
       time_series_data,static_data, labels = generate_simluated_time_series_data(n_samples,n_timestamp,mislabel = None,random_state=42)```
    * models usage
-  ```category_info = np.zeros([time_series_data.shape[-1]]).astype(np.int32)
-static_category_info = np.zeros(static_data.shape[-1]).astype(np.int32)
-static_category_info[0] = 2 
-classifier = GeneralizedFuzzyEvolveClassifier(
-                evolve_type = 'GRU',
-                weighted_loss=[1.0,1.0],
-                n_visits = 4,
-                report_freq=50,
-                patience_step=500,
-                max_steps=10000,
-                learning_rate=0.1,
-                batch_size = 64,
-                split_method='sample_wise',
-                category_info=category_info,
-                static_category_info=static_category_info,
-                random_state=1234,
-                verbose=2,
-                min_epsilon=0.9,
-                sparse_regu=1e-3,
-                corr_regu=1e-4,
-    
-            )```
+      ```category_info = np.zeros([time_series_data.shape[-1]]).astype(np.int32)
+         static_category_info = np.zeros(static_data.shape[-1]).astype(np.int32)
+         static_category_info[0] = 2 
+          classifier = GeneralizedFuzzyEvolveClassifier(
+                          evolve_type = 'GRU',
+                          weighted_loss=[1.0,1.0],
+                          n_visits = 4,
+                          report_freq=50,
+                          patience_step=500,
+                          max_steps=10000,
+                          learning_rate=0.1,
+                          batch_size = 64,
+                          split_method='sample_wise',
+                          category_info=category_info,
+                          static_category_info=static_category_info,
+                          random_state=1234,
+                          verbose=2,
+                          min_epsilon=0.9,
+                          sparse_regu=1e-3,
+                          corr_regu=1e-4,
+              
+                      )```
     
 2. Models:
    * Layers
