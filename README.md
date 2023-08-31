@@ -5,7 +5,7 @@ This repository contains code related to the paper, "EvolveFNN: An interpretable
 @Author: Yufeng Zhang chloezh@umich.edu
 
 ## proposed framework
-![network](https://github.com/yufengzhang1995/EvolveFNN/blob/main/network.png)
+![network](https://github.com/yufengzhang1995/EvolveFNN/blob/main/network.png =100x20)
 
 ## Required Packages
 * torch==1.12.1
@@ -22,7 +22,7 @@ This repository contains code related to the paper, "EvolveFNN: An interpretable
       n_samples = 1000
       n_timestamp = 10
       random_state = 42
-      time_series_data,static_data, labels = generate_simluated_time_series_data(n_samples,n_timestamp,mislabel = None,random_state=42)```
+      time_series_data,static_data, labels = generate_simluated_time_series_data(n_samples,n_timestamp,mislabel = None,random_state=42)
    * models usage
       ```category_info = np.zeros([time_series_data.shape[-1]]).astype(np.int32)
          static_category_info = np.zeros(static_data.shape[-1]).astype(np.int32)
