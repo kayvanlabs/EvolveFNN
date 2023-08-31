@@ -1,19 +1,21 @@
 # EvolveFNN: An interpretable framework for early detection using longitudinal electronic health record data
 
+This repository contains code related to the paper, "EvolveFNN: An interpretable framework for early detection using longitudinal electronic health record data"
+
 @Author: Yufeng Zhang chloezh@umich.edu
 
-### proposed framework
+## proposed framework
 ![network](https://github.com/yufengzhang1995/EvolveFNN/blob/main/network.png)
 
-**Required Packages**
-- torch==1.12.1
-- numpy==1.21.6
-- pandas==1.4.1
-- scikit-learn==1.2.2
-- matplotlib==3.5.1
-- shap==0.40.0
+## Required Packages**
+* torch==1.12.1
+* numpy==1.21.6
+* pandas==1.4.1
+* scikit-learn==1.2.2
+* matplotlib==3.5.1
+* shap==0.40.0
 
-### Experiments
+## Experiments
 1. Simulation
    * data generation
    * models
