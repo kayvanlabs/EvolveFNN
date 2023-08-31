@@ -44,8 +44,7 @@ This repository contains code related to the paper, "EvolveFNN: An interpretable
                           min_epsilon=0.9,
                           sparse_regu=1e-3,
                           corr_regu=1e-4,
-              
-                      )```
+                      )
     
 2. Models:
    * Layers
