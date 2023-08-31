@@ -5,7 +5,8 @@ This repository contains code related to the paper, "EvolveFNN: An interpretable
 @Author: Yufeng Zhang chloezh@umich.edu
 
 ## proposed framework
-![network](https://github.com/yufengzhang1995/EvolveFNN/blob/main/network.png =100x20)
+<img src="https://github.com/yufengzhang1995/EvolveFNN/blob/main/network.png" width="200" />
+
 
 ## Required Packages
 * torch==1.12.1
