@@ -18,14 +18,11 @@ This repository contains code related to the paper, "EvolveFNN: An interpretable
 ## Experiments
 1. Simulation
    * data generation
-     ```
-    n_split = 5
-    n_samples = 1000
-    n_timestamp = 10
-    random_state = 42
-    time_series_data,static_data, labels =    generate_simluated_time_series_data(n_samples,n_timestamp,mislabel = None,random_state=42)
-
-     ```
+     ```n_split = 5
+      n_samples = 1000
+      n_timestamp = 10
+      random_state = 42
+      time_series_data,static_data, labels =    generate_simluated_time_series_data(n_samples,n_timestamp,mislabel = None,random_state=42)```
    * models
    * 
 2. Models
